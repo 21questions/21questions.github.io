@@ -42,6 +42,7 @@
 	8. Call to Action
 	9. Footer
 	10. Media Queries
+	11. Win
 
    //////////////////////////*/
 
@@ -103,13 +104,13 @@ section {
 
 .divider {
 	padding: 2rem 0 0;
-    margin: 2rem 0 0;
-    border-top: 1px solid #3c3f45;
+	margin: 2rem 0 0;
+	border-top: 1px solid #3c3f45;
 }
 
 .divider-light {
 	padding: 2rem 0 0;
-    margin: 2rem 0 0;
+	margin: 2rem 0 0;
 	border-top: 1px solid #edf1f2
 }
 
@@ -118,8 +119,8 @@ section {
 ===============================================*/
 
 .custom-navbar {
-	background-color: #ffffff!important;
-	box-shadow: 0 2px 4px 0 rgba(0,0,0,.09);
+	background-color: #ffffff !important;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .09);
 	height: 70px;
 	max-height: 70px;
 }
@@ -164,8 +165,8 @@ section {
 .btn {
 	font-size: 14px;
 	font-weight: 400;
-	border-radius: 3px!important;
-	box-shadow: 0 2px 3px 0 rgba(0,0,0,.05), 0 1px 2px 0 rgba(0,0,0,.08);
+	border-radius: 3px !important;
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .05), 0 1px 2px 0 rgba(0, 0, 0, .08);
 }
 
 .btn:hover {
@@ -173,7 +174,7 @@ section {
 }
 
 .btn-regular {
-	background-color: #0095f7;
+	background-color: #E24457;
 	color: #ffffff;
 	padding: 10px 25px;
 	letter-spacing: .1em;
@@ -182,7 +183,7 @@ section {
 }
 
 .btn-regular:hover {
-	background-color: #0191f0;
+	background-color: #E24457;
 	color: #ffffff;
 }
 
@@ -212,12 +213,12 @@ section {
 }
 
 .btn-demo-small a {
-	color: #ffffff!important;
+	color: #ffffff !important;
 }
 
 .btn-buy {
 	color: #ffffff;
-	background-color: #0095f7;
+	background-color: #E24457;
 	letter-spacing: .1em;
 	padding: 15px 48px;
 	display: inline-block;
@@ -226,7 +227,7 @@ section {
 }
 
 .btn-buy:hover {
-	background-color: #0191f0;
+	background-color: #E24457;
 	color: #ffffff;
 }
 
@@ -244,18 +245,18 @@ section {
 }
 
 #hero p {
-	font-size: 24px;
-    font-weight: 300;
-    color: #8da2b5;
-    margin-bottom: 0px;
-    padding: 0px;
+	font-size: 17px;
+	font-weight: 300;
+	color: #54616d;
+	margin-bottom: 0px;
+	padding: 0px;
 }
 
 #hero span {
 	font-weight: 400;
-    color: #0095f7;
-    text-transform: uppercase;
-    letter-spacing: .05em;
+	color: #E24457;
+	text-transform: uppercase;
+	letter-spacing: .05em;
 }
 
 /* ==============================================
@@ -264,15 +265,15 @@ section {
 
 #marketing p {
 	font-size: 20px;
-    font-weight: 300;
-    color: #8da2b5;
-    margin-bottom: 0px;
-    padding: 0px;
+	font-weight: 300;
+	color: #8da2b5;
+	margin-bottom: 0px;
+	padding: 0px;
 }
 
 #marketing span {
 	font-weight: 400;
-	color: #0095f7;
+	color: #E24457;
 	text-transform: uppercase;
 	letter-spacing: .05em;
 }
@@ -293,7 +294,7 @@ section {
 
 .testimonial-box {
 	background-color: #ffffff;
-	box-shadow: 0 0 1px 0 rgba(0,12,32,0.04), 0 10px 16px 0 rgba(10,31,68,0.06);
+	box-shadow: 0 0 1px 0 rgba(0, 12, 32, 0.04), 0 10px 16px 0 rgba(10, 31, 68, 0.06);
 	border-radius: 20px;
 	padding: 20px 30px;
 	margin-top: 30px;
@@ -330,23 +331,23 @@ section {
 }
 
 .rating {
-	background-color: #0095f7;
+	background-color: #E24457;
 	padding: 2px 12px;
 	border-radius: 50px;
 }
 
 .profile-picture {
-  display: inline-block;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
 }
 
 .review-one {
-  background-image: url('images/profile-picture-one.jpg');
+	background-image: url('images/profile-picture-one.jpg');
 }
 
 .personal-info {
@@ -363,7 +364,7 @@ section {
 	padding: 40px 20px;
 	border: 1px solid #F8F9FB;
 	border-radius: 6px;
-	box-shadow: 0 0 1px 0 rgba(0,12,32,0.04), 0 10px 16px 0 rgba(10,31,68,0.06);
+	box-shadow: 0 0 1px 0 rgba(0, 12, 32, 0.04), 0 10px 16px 0 rgba(10, 31, 68, 0.06);
 	margin-top: 30px;
 }
 
@@ -371,7 +372,7 @@ section {
 	font-size: 22px;
 	font-weight: 300;
 	letter-spacing: .1em;
-	color: #0095f7;
+	color: #E24457;
 }
 
 .pricing-box h6 {
@@ -400,7 +401,7 @@ section {
 
 .pricing-box span {
 	font-weight: 500;
-	color: #0095f7;
+	color: #E24457;
 }
 
 .pricing-box small {
@@ -410,12 +411,12 @@ section {
 
 .pricing-box i {
 	font-size: 20px;
-	color: #0095f7;
+	color: #E24457;
 	margin-right: 10px;
 }
 
 .pricing-box .demo {
-	color: #6772e5!important;
+	color: #6772e5 !important;
 }
 
 /* ==============================================
@@ -446,8 +447,8 @@ section {
 }
 
 #call-to-action .btn-regular {
-	background-color: #ffffff!important;
-	color: #0095f7!important;
+	background-color: #ffffff !important;
+	color: #E24457 !important;
 	padding: 15px 45px;
 }
 
@@ -461,8 +462,8 @@ section {
 
 footer {
 	background-color: #292c31;
-    padding: 60px 0;
-    color: #62656a;
+	padding: 60px 0;
+	color: #62656a;
 }
 
 footer h5 {
@@ -493,7 +494,7 @@ footer a {
 }
 
 footer a:hover {
-	color: #0095f7;
+	color: #E24457;
 	text-decoration: none;
 }
 
@@ -504,7 +505,7 @@ footer i {
 }
 
 footer i:hover {
-	color: #0095f7;
+	color: #E24457;
 }
 
 footer small {
@@ -513,7 +514,7 @@ footer small {
 }
 
 .external-links {
-	color: #0095f7;
+	color: #E24457;
 }
 
 /* ==============================================
@@ -521,71 +522,83 @@ footer small {
 ===============================================*/
 
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { 
+@media (max-width: 575.98px) {
 	h2 {
-		font-size: 34px!important;
+		font-size: 34px !important;
 		margin-bottom: 20px;
 		line-height: 1.6;
 	}
-	.title-block h2, p {
+
+	.title-block h2,
+	p {
 		text-align: left;
 		padding: 0px 20px;
 	}
 
-	#call-to-action h2, p {
-		text-align: left!important;
+	#call-to-action h2,
+	p {
+		text-align: left !important;
 		padding: 0 20px;
 	}
 
 	#call-to-action {
 		background-image: none;
-		background-color: #0095f7;
+		background-color: #E24457;
 	}
 
 	footer {
 		padding: 60px 25px;
 	}
+
 	footer h5 {
 		font-size: 18px;
 		margin-top: 30px;
 	}
+
 	footer li {
 		font-size: 16px;
 		margin-bottom: 15px;
 	}
+
 	footer p {
 		font-size: 16px;
 	}
+
 	footer i {
 		font-size: 30px;
 		margin-right: 20px;
 	}
+
 	footer small {
 		float: left;
 		margin-top: 20px;
 	}
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
 	#hero h1 {
-		font-size: 34px!important;
+		font-size: 34px !important;
 		margin-bottom: 20px;
 	}
+
 	#hero p {
-		font-size: 20px!important;
+		font-size: 20px !important;
 	}
 }
 
-@media (max-width: 991px) { 
+@media (max-width: 991px) {
 	.nav-right {
 		float: left;
 	}
+
 	.nav-custom-link {
 		border-bottom: 1px solid #EEE;
 	}
-	.navbar-nav{
+
+	.navbar-nav {
 		width: 100%;
 	}
+
 	.navbar-nav .nav-link {
 		padding: 20px 0;
 		text-align: left;
@@ -598,6 +611,7 @@ footer small {
 		box-shadow: none;
 
 	}
+
 	.btn-demo-small:hover {
 		background-color: #ffffff;
 		border: 0px;
@@ -605,9 +619,11 @@ footer small {
 		box-shadow: none;
 
 	}
+
 	.btn-demo-small a {
-		color: #53627C!important;
+		color: #53627C !important;
 	}
+
 	.nav-custom-link {
 		font-size: 13px;
 	}
@@ -632,55 +648,75 @@ footer small {
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
 	.icon-mobile {
 		display: none;
 	}
+
 	.nav-logo-mobile {
 		display: none;
 	}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {
 	.hero-content {
 		margin-top: 100px;
 	}
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) { 
+@media (min-width: 768px) and (max-width: 991.98px) {
 	.pricing-box h3 {
 		font-size: 17px;
 	}
+
 	.pricing-box p {
 		font-size: 14px;
 	}
+
 	.pricing-box li {
 		font-size: 12px;
 	}
+
 	.btn-buy {
 		font-size: 12px;
 		padding: 15px 20px;
 	}
+
 	.btn-demo {
 		font-size: 12px;
 		padding: 15px 20px;
 	}
+
 	.profile-picture {
 		width: 50px;
 		height: 50px;
 	}
+
 	.testimonial-box h6 {
 		font-size: 14px;
 		margin-left: 10px;
 	}
+
 	.testimonial-box span {
 		font-size: 12px;
 	}
+
 	.testimonial-box small {
 		font-size: 12px;
 		margin-top: 4px;
 		margin-left: 10px;
 	}
+}
+
+
+
+#win p {
+	display: inline-flex;
+	padding: 11.106px 12.006px 12.412px 11.994px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5.378px;
+	background: #ffffff;
 }
