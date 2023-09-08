@@ -712,11 +712,6 @@ footer small {
 
 
 
-#win p {
-	display: inline-flex;
-	padding: 11.106px 12.006px 12.412px 11.994px;
-	justify-content: center;
-	align-items: center;
-	border-radius: 5.378px;
-	background: #ffffff;
+ion-icon {
+	color: #E24457;
 }
