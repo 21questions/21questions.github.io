@@ -9,16 +9,23 @@
     <div id="stars2"></div>
     <div id="stars3"></div>
     <div id="title">
-      <img src="./images/logoapp.svg" alt="21 Questions App">
+      <img id="logo-web" src="./images/logoapp.svg" alt="21 Questions App">
+      <img id="logo-mobile" src="./images/logoapp.svg" alt="21 Questions App" height="150px">
       <div class="image-container">
         <a href="itms-apps://apps.apple.com/us/app/21-questions-card-games/id6451004192" id="ios-link">
-          <img src="./images/app-store.svg" alt="Download on the App Store">
+          <img id="app-store-logo" src="./images/app-store.svg" alt="Download on the App Store">
         </a>
         <a href="itms-apps://apps.apple.com/us/app/21-questions-card-games/id6451004192" id="android-link">
-          <img src="./images/android.svg" href="https://play.google.com/store/apps/details?id=com.twentyonequestions&hl=en_US&gl=US" alt="Download on the Play Store">
+          <img id="play-store-logo" src="./images/android.svg" href="https://play.google.com/store/apps/details?id=com.twentyonequestions&hl=en_US&gl=US" alt="Download on the Play Store">
         </a>
     </div>
-    <div class="centered-container">
+    <div id="links-web" class="centered-container">
+      <a id="links" href="./terms.html">TERMS OF SERVICE</a>
+      <a id="links" href="./privacy.html">PRIVACY POLICY</a>
+      <a id="links" href="https://21.cards/">21 QUESTIONS DECKS</a>
+      <a id="links" href="mailto:contact@21questions.app">CONTACT@21QUESTIONS.APP</a>
+    </div>
+    <div id="links-mobile" class="centered-container2">
       <a id="links" href="./terms.html">TERMS OF SERVICE</a>
       <a id="links" href="./privacy.html">PRIVACY POLICY</a>
       <a id="links" href="https://21.cards/">21 QUESTIONS DECKS</a>
@@ -40,11 +47,26 @@
       // Hide the link if the user is on an Android device
       if (isAndroid()) {
         document.getElementById("ios-link").style.display = "none";
+        document.getElementById("logo-web").style.display = "none";
+        document.getElementById("play-store-logo").style.width = "300px";
+        document.getElementById("play-store-logo").style.paddingTop = "50px";
+        document.getElementById("play-store-logo").style.paddingBottom = "50px";
+        document.getElementById("links-web").style.display = "none";
       }
 
       // Hide the link if the user is on an iOS device
       if (isIOS()) {
         document.getElementById("android-link").style.display = "none";
+        document.getElementById("logo-web").style.display = "none";
+        document.getElementById("app-store-logo").style.width = "400px";
+        document.getElementById("app-store-logo").style.paddingTop = "50px";
+        document.getElementById("app-store-logo").style.paddingBottom = "50px";
+        document.getElementById("links-web").style.display = "none";
+      }
+
+      if (!isIOS() && !isAndroid()) {
+        document.getElementById("logo-mobile").style.display = "none";
+        document.getElementById("links-mobile").style.display = "none";
       }
     });
 </script>
