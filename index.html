@@ -1,73 +1,198 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="./style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+    <title>21 Questions App - Couples, Party and Spicy Questions</title>
+    <meta
+      name="description"
+      content="21 Questions App offers a diverse collection of decks designed to ignite conversations and forge connections among couples and friends. With 5000+ questions, you can spice up any social gathering."
+    />
+    <meta property="og:title" content="21 Questions App - Couples, Party and Spicy Questions" />
+    <meta
+      property="og:description"
+      content="21 Questions App offers a diverse collection of decks designed to ignite conversations and forge connections among couples and friends. With 5000+ questions, you can spice up any social gathering."
+    />
+    <meta
+      property="og:image"
+      content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/d01c748e-0c45-4779-8fbf-85796d401718/ab3294bf-98d2-4e7a-9795-f94cb899a455?org_if_sml=1&amp;force_format=original"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+        fill: var(--dl-color-gray-black);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="public/android-chrome-512x512.png"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <!--This is the head section-->
+    <!-- <style> ... </style> -->
   </head>
   <body>
-    <div id="stars"></div>
-    <div id="stars2"></div>
-    <div id="stars3"></div>
-    <div id="title">
-      <img id="logo-web" src="./images/logoapp.svg" alt="21 Questions App">
-      <img id="logo-mobile" src="./images/logoapp.svg" alt="21 Questions App" height="150px">
-      <div class="image-container">
-        <a href="itms-apps://apps.apple.com/us/app/21-questions-card-games/id6451004192" id="ios-link">
-          <img id="app-store-logo" src="./images/app-store.svg" alt="Download on the App Store">
-        </a>
-        <a href="itms-apps://apps.apple.com/us/app/21-questions-card-games/id6451004192" id="android-link">
-          <img id="play-store-logo" src="./images/android.svg" href="https://play.google.com/store/apps/details?id=com.twentyonequestions&hl=en_US&gl=US" alt="Download on the Play Store">
-        </a>
-    </div>
-    <div id="links-web" class="centered-container">
-      <a id="links" href="./terms.html">TERMS OF SERVICE</a>
-      <a id="links" href="./privacy.html">PRIVACY POLICY</a>
-      <a id="links" href="https://21.cards/">21 QUESTIONS DECKS</a>
-      <a id="links" href="mailto:contact@21questions.app">CONTACT@21QUESTIONS.APP</a>
-    </div>
-    <div id="links-mobile" class="centered-container2">
-      <a id="links" href="./terms.html">TERMS OF SERVICE</a>
-      <a id="links" href="./privacy.html">PRIVACY POLICY</a>
-      <a id="links" href="https://21.cards/">21 QUESTIONS DECKS</a>
-      <a id="links" href="mailto:contact@21questions.app">CONTACT@21QUESTIONS.APP</a>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <div class="home-container">
+        <div class="home-heading">
+          <div id="notifcation" class="home-notification">
+            <a href="index.html">
+              <div
+                class="announcement-announcement announcement-root-class-name"
+              >
+                <span class="announcement-title">
+                  <span>Kings Cup and Roadtrip Deck Coming Soon</span>
+                </span>
+                <div class="announcement-button">
+                  <span class="announcement-button-text">
+                    <span>Play For Free</span>
+                  </span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="home-get-started">
+          <div class="home-content">
+            <div class="home-heading1">
+              <img alt="image" src="./images/logoapp.svg" class="home-image" />
+              <span class="home-text">
+                5,000+ COUPLES, PARTY AND DEEP QUESTIONS
+              </span>
+            </div>
+            <div class="home-hero-buttons">
+              <a
+                href="itms-apps://apps.apple.com/us/app/21-questions-card-games/id6451004192"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link"
+              >
+                <div class="home-ios-btn">
+                  <img
+                    alt="pastedImage"
+                    src="./images/Apple_logo_white.svg.png"
+                    class="home-apple"
+                  />
+                  <span class="home-caption">Download for iOS</span>
+                </div>
+              </a>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.twentyonequestions&amp;hl=en_US&amp;gl=US"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link1"
+              >
+                <div class="home-android-btn">
+                  <img
+                    alt="pastedImage"
+                    src="./images/android-svgrepo-com.svg"
+                    class="home-android"
+                  />
+                  <span class="home-caption1">Download for Android</span>
+                </div>
+              </a>
+            </div>
+            <img alt="image" src="./images/app_promo.png" class="home-image1" />
+          </div>
+        </div>
+        <div class="footer-footer">
+          <div class="footer-content">
+            <div class="footer-container">
+              <div class="footer-information">
+                <div class="footer-heading">
+                  <img
+                    alt="image"
+                    src="./images/SAN ENTERTAINMENT.svg"
+                    class="footer-image"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="footer-links">
+              <div class="footer-column">
+                <span class="footer-header"><span>The App</span></span>
+                <a
+                  href="itms-apps://apps.apple.com/us/app/21-questions-card-games/id6451004192"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="home-link"
+                >
+                  <span class="footer-link"><span>iOS App</span></span>
+                </a>
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.twentyonequestions&amp;hl=en_US&amp;gl=US"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="home-link"
+                >
+                  <span class="footer-link1"><span>Android App</span></span>
+                </a>
+                <a
+                  href="./terms.html"
+                >
+                  <span class="footer-link2"><span>Terms of Service</span></span>
+                </a>
+                <a
+                  href="./privacy.html"
+                >
+                  <span class="footer-link3"><span>Privacy Policy</span></span>
+                </a>
+              </div>
+              <div class="footer-column1">
+                <span class="footer-header1"><span>Contact</span></span>
+                <span class="footer-link4">
+                  <a
+                    href="mailto:contact@21questions.app"
+                  >
+                    <span>contact@21questions.app</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <span class="footer-text">
+            <span>© 2024 San Entertainment. All Rights Reserved.</span>
+          </span>
+        </div>
+      </div>
     </div>
   </body>
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      // Function to detect if the user is using an Android device
-      function isAndroid() {
-        return /Android/i.test(navigator.userAgent);
-      }
-
-      // Function to detect if the user is using an iOS device
-      function isIOS() {
-        return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-      }
-
-      // Hide the link if the user is on an Android device
-      if (isAndroid()) {
-        document.getElementById("ios-link").style.display = "none";
-        document.getElementById("logo-web").style.display = "none";
-        document.getElementById("play-store-logo").style.width = "300px";
-        document.getElementById("play-store-logo").style.paddingTop = "50px";
-        document.getElementById("play-store-logo").style.paddingBottom = "50px";
-        document.getElementById("links-web").style.display = "none";
-      }
-
-      // Hide the link if the user is on an iOS device
-      if (isIOS()) {
-        document.getElementById("android-link").style.display = "none";
-        document.getElementById("logo-web").style.display = "none";
-        document.getElementById("app-store-logo").style.width = "400px";
-        document.getElementById("app-store-logo").style.paddingTop = "50px";
-        document.getElementById("app-store-logo").style.paddingBottom = "50px";
-        document.getElementById("links-web").style.display = "none";
-      }
-
-      if (!isIOS() && !isAndroid()) {
-        document.getElementById("logo-mobile").style.display = "none";
-        document.getElementById("links-mobile").style.display = "none";
-      }
-    });
-</script>
 </html>
