@@ -482,11 +482,11 @@
 	flex-direction: row;
 	padding-bottom: var(--dl-space-space-oneandhalfunits);
 	justify-content: center;
-	background-color: #000000;
+	background-color: #373737;
   }
   .home-ios-btn:hover {
-	transform: scale(1.1);
-	background-color: rgba(0, 0, 0, 0.75);
+	transform: scale(1.05);
+	background-color: rgba(98, 98, 98, 0.75);
   }
   .home-apple {
 	width: 16px;
@@ -496,6 +496,7 @@
 	font-style: normal;
 	font-family: Poppins;
 	font-weight: 500;
+  width: 200px;
   }
   .home-android-btn {
 	gap: var(--dl-space-space-halfunit);
@@ -512,11 +513,11 @@
 	flex-direction: row;
 	padding-bottom: var(--dl-space-space-oneandhalfunits);
 	justify-content: center;
-	background-color: #000000;
+	background-color: #373737;
   }
   .home-android-btn:hover {
-	transform: scale(1.1);
-	background-color: rgba(0, 0, 0, 0.75);
+	transform: scale(1.05);
+	background-color: rgba(98, 98, 98, 0.75);
   }
   .home-android {
 	width: 18px;
@@ -526,10 +527,11 @@
 	font-style: normal;
 	font-family: Poppins;
 	font-weight: 500;
+  width: 200px;
   }
   .home-image1 {
-	width: 395px;
-	height: 472px;
+	width: 444px;
+	height: 486px;
 	object-fit: cover;
   }
   @media(max-width: 991px) {
@@ -561,8 +563,8 @@
 	  padding-top: 10px;
 	}
 	.home-image1 {
-	  width: 356px;
-	  height: 436px;
+    width: 261px;
+    height: 286px;
 	}
   }
   @media(max-width: 479px) {
