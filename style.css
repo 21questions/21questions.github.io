@@ -530,8 +530,8 @@
   width: 200px;
   }
   .home-image1 {
-	width: 444px;
-	height: 486px;
+	width: 443px;
+	height: 483px;
 	object-fit: cover;
   }
   @media(max-width: 991px) {
@@ -563,8 +563,8 @@
 	  padding-top: 10px;
 	}
 	.home-image1 {
-    width: 352px;
-    height: 386px;
+    width: 324px;
+    height: 353px;
 	}
   }
   @media(max-width: 479px) {
