@@ -3,8 +3,17 @@
     "apps": [],
     "details": [
       {
-        "appID": "Y5ZHFU73J3.com.twentyonequestions",
-        "paths": ["/play"]
+        "appIDs": ["Y5ZHFU73J3.com.twentyonequestions"],
+        "components": [
+          {
+            "/": "/",
+            "comment": "Opens app home screen"
+          },
+          {
+            "/": "/deck/*",
+            "comment": "Deep link to specific deck - e.g., /deck/couples"
+          }
+        ]
       }
     ]
   }
