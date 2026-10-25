@@ -197,6 +197,10 @@
 	width: 100%;
 	background-color: #151517;
   }
+  .announcement-announcement.announcement-static {
+	cursor: default;
+	align-items: center;
+  }
   .announcement-root-class-name1 {
 	flex: 0 0 auto;
 	width: 100%;
